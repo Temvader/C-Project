@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Официальный магазин Adidas в России. Купить оригинальные кроссовки, одежду и аксессуары Adidas с доставкой по всей России. Новые коллекции 2024 года.">
+    <meta name="keywords" content="adidas, кроссовки, спортивная одежда, купить adidas, магазин adidas, оригинальные кроссовки, спортивные товары">
+    <meta name="author" content="Adidas Russia">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Официальный магазин Adidas в России | Купить оригинальные кроссовки">
+    <meta property="og:description" content="Официальный магазин Adidas в России. Купить оригинальные кроссовки, одежду и аксессуары Adidas с доставкой по всей России.">
+    <meta property="og:image" content="assets/logo.svg">
+    <meta property="og:url" content="https://adidas.ru">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Официальный магазин Adidas в России">
+    <meta name="twitter:description" content="Купить оригинальные кроссовки, одежду и аксессуары Adidas с доставкой по всей России.">
+    <meta name="twitter:image" content="assets/logo.svg">
+    <link rel="canonical" href="https://adidas.ru">
+    <title data-translate="siteTitle">Официальный магазин Adidas в России | Купить оригинальные кроссовки</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "Adidas Russia",
+        "description": "Официальный магазин Adidas в России",
+        "url": "https://adidas.ru",
+        "logo": "assets/logo.svg",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Красная площадь, 1",
+            "addressLocality": "Москва",
+            "addressCountry": "RU"
+        },
+        "telephone": "+7 (495) 123-45-67",
+        "email": "info@example.com",
+        "priceRange": "₽₽",
+        "openingHours": "Mo-Su 10:00-22:00",
+        "paymentAccepted": ["Visa", "MasterCard", "American Express", "PayPal"],
+        "currenciesAccepted": "RUB"
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Логотип Adidas - официальный магазин спортивной одежды и обуви" width="100" height="50">
+                <p data-translate="brandName">Adidas</p>
+            </div>
+            <div class="nav-links">
+                <div class="nav-categories">
+                    <button class="nav-dropdown-btn" data-translate="categories">
+                        <span>Категории</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="nav-dropdown">
+                        <a href="/men" data-translate="men">
+                            <i class="fas fa-male"></i>
+                            <span>Мужское</span>
+                        </a>
+                        <a href="/women" data-translate="women">
+                            <i class="fas fa-female"></i>
+                            <span>Женское</span>
+                        </a>
+                        <a href="/kids" data-translate="kids">
+                            <i class="fas fa-child"></i>
+                            <span>Детское</span>
+                        </a>
+                        <a href="/sale" data-translate="sale">
+                            <i class="fas fa-tag"></i>
+                            <span>Распродажа</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-actions">
+                    <button class="nav-dropdown-btn" data-translate="actions">
+                        <span>Действия</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="nav-dropdown">
+                        <a href="/search" data-translate="search">
+                            <i class="fas fa-search"></i>
+                            <span>Поиск</span>
+                        </a>
+                        <a href="/account" data-translate="account">
+                            <i class="fas fa-user"></i>
+                            <span>Аккаунт</span>
+                        </a>
+                        <a href="/cart" data-translate="cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>Корзина</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-icons">
+                <div class="language-selector">
+                    <button class="language-btn">
+                        <i class="fas fa-globe"></i>
+                        <span data-translate="currentLang">RU</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-dropdown">
+                        <a href="/ru" data-lang="ru" data-translate="russian">
+                            <i class="fas fa-language"></i>
+                            <span>Русский</span>
+                        </a>
+                        <a href="/en" data-lang="en" data-translate="english">
+                            <i class="fas fa-language"></i>
+                            <span>English</span>
+                        </a>
+                        <a href="/ja" data-lang="ja" data-translate="japanese">
+                            <i class="fas fa-language"></i>
+                            <span>日本語</span>
+                        </a>
+                    </div>
+                </div>
+                <button id="theme-toggle" data-translate="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars" data-translate="menuIcon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mobile-nav">
+        <div class="mobile-nav-header">
+            <h3 data-translate="menu">Меню</h3>
+            <button class="mobile-nav-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="mobile-nav-links">
+            <div class="nav-categories">
+                <button class="nav-dropdown-btn" data-translate="categories">
+                    <span>Категории</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="nav-dropdown">
+                    <a href="/men" data-translate="men">
+                        <i class="fas fa-male"></i>
+                        <span>Мужское</span>
+                    </a>
+                    <a href="/women" data-translate="women">
+                        <i class="fas fa-female"></i>
+                        <span>Женское</span>
+                    </a>
+                    <a href="/kids" data-translate="kids">
+                        <i class="fas fa-child"></i>
+                        <span>Детское</span>
+                    </a>
+                    <a href="/sale" data-translate="sale">
+                        <i class="fas fa-tag"></i>
+                        <span>Распродажа</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="nav-dropdown-btn" data-translate="actions">
+                    <span>Действия</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="nav-dropdown">
+                    <a href="/search" data-translate="search">
+                        <i class="fas fa-search"></i>
+                        <span>Поиск</span>
+                    </a>
+                    <a href="/account" data-translate="account">
+                        <i class="fas fa-user"></i>
+                        <span>Аккаунт</span>
+                    </a>
+                    <a href="/cart" data-translate="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Корзина</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mobile-nav-icons">
+            <div class="language-selector">
+                <button class="language-btn">
+                    <i class="fas fa-globe"></i>
+                    <span data-translate="currentLang">RU</span>
+                </button>
+                <div class="language-dropdown">
+                    <a href="/ru" data-lang="ru" data-translate="russian">Русский</a>
+                    <a href="/en" data-lang="en" data-translate="english">English</a>
+                    <a href="/ja" data-lang="ja" data-translate="japanese">日本語</a>
+                </div>
+            </div>
+            <button id="theme-toggle" data-translate="themeToggle"><i class="fas fa-moon"></i></button>
+        </div>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 data-translate="newCollection">Новая коллекция Adidas 2024</h1>
+                <p data-translate="discover">Откройте для себя последние кроссовки Adidas с инновационными технологиями</p>
+                <button class="cta-button" data-translate="shopNow">Купить сейчас</button>
+            </div>
+        </section>
+
+        <section class="featured">
+            <div class="featured-header">
+                <h2 data-translate="featured">Рекомендуемые товары Adidas</h2>
+                <div class="catalog-controls">
+                </div>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/ultraboost22.webp" alt="Кроссовки Adidas Ultraboost 22 - беговые кроссовки с технологией Boost" width="300" height="300" data-translate="ultraboostAlt">
+                        <div class="product-badges">
+                            <span class="badge new" data-translate="new">Новинка</span>
+                            <span class="badge discount" data-translate="discount">-20%</span>
+                        </div>
+                        <button class="quick-view" data-translate="quickView">Быстрый просмотр</button>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-info">
+                            <h3 data-translate="ultraboost">Ultraboost 22</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="rating-count">(128)</span>
+                            </div>
+                            <p class="product-description" data-translate="ultraboostDesc">Беговые кроссовки с технологией Boost для максимальной амортизации</p>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price" data-price="18000" data-translate="ultraboostPrice">18 000 ₽</span>
+                            <span class="old-price" data-translate="oldPrice">22 500 ₽</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart" data-translate="add-to-cart">Добавить в корзину</button>
+                            <div class="cart-notification">Добавлено в корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/NMD R1.webp" alt="Кроссовки Adidas NMD R1 - стильные повседневные кроссовки" width="300" height="300" data-translate="nmdAlt">
+                        <div class="product-badges">
+                            <span class="badge new" data-translate="new">Новинка</span>
+                            <span class="badge discount" data-translate="discount">-15%</span>
+                        </div>
+                        <button class="quick-view" data-translate="quickView">Быстрый просмотр</button>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-info">
+                            <h3 data-translate="nmd">NMD R1</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="rating-count">(95)</span>
+                            </div>
+                            <p class="product-description" data-translate="nmdDesc">Стильные повседневные кроссовки для всех случаев</p>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price" data-price="13000" data-translate="nmdPrice">13 000 ₽</span>
+                            <span class="old-price" data-translate="oldPrice">15 300 ₽</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart" data-translate="add-to-cart">Добавить в корзину</button>
+                            <div class="cart-notification">Добавлено в корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/Stan Smith.jpg" alt="Кроссовки Adidas Stan Smith - классические теннисные кроссовки" width="300" height="300" data-translate="stanSmithAlt">
+                        <div class="product-badges">
+                            <span class="badge new" data-translate="new">Новинка</span>
+                            <span class="badge discount" data-translate="discount">-10%</span>
+                        </div>
+                        <button class="quick-view" data-translate="quickView">Быстрый просмотр</button>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-info">
+                            <h3 data-translate="stanSmith">Stan Smith</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="rating-count">(256)</span>
+                            </div>
+                            <p class="product-description" data-translate="stanSmithDesc">Классические теннисные кроссовки для всех поклонников спорта</p>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price" data-price="8500" data-translate="stanSmithPrice">8 500 ₽</span>
+                            <span class="old-price" data-translate="oldPrice">9 450 ₽</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart" data-translate="add-to-cart">Добавить в корзину</button>
+                            <div class="cart-notification">Добавлено в корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/Predator.webp" alt="Кроссовки Adidas Predator Edge - профессиональные футбольные кроссовки" width="300" height="300" data-translate="predatorAlt">
+                        <div class="product-badges">
+                            <span class="badge new" data-translate="new">Новинка</span>
+                            <span class="badge discount" data-translate="discount">-25%</span>
+                        </div>
+                        <button class="quick-view" data-translate="quickView">Быстрый просмотр</button>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-info">
+                            <h3 data-translate="predator">Predator Edge</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="rating-count">(78)</span>
+                            </div>
+                            <p class="product-description" data-translate="predatorDesc">Профессиональные футбольные кроссовки для высоких результатов</p>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price" data-price="15000" data-translate="predatorPrice">15 000 ₽</span>
+                            <span class="old-price" data-translate="oldPrice">20 000 ₽</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart" data-translate="add-to-cart">Добавить в корзину</button>
+                            <div class="cart-notification">Добавлено в корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/Harden.webp" alt="Кроссовки Adidas Harden Vol. 7 - баскетбольные кроссовки" width="300" height="300" data-translate="hardenAlt">
+                        <div class="product-badges">
+                            <span class="badge new" data-translate="new">Новинка</span>
+                            <span class="badge discount" data-translate="discount">-30%</span>
+                        </div>
+                        <button class="quick-view" data-translate="quickView">Быстрый просмотр</button>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-info">
+                            <h3 data-translate="harden">Harden Vol. 7</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="rating-count">(64)</span>
+                            </div>
+                            <p class="product-description" data-translate="hardenDesc">Баскетбольные кроссовки для высоких результатов</p>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price" data-price="12000" data-translate="hardenPrice">12 000 ₽</span>
+                            <span class="old-price" data-translate="oldPrice">17 150 ₽</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart" data-translate="add-to-cart">Добавить в корзину</button>
+                            <div class="cart-notification">Добавлено в корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/Baricade.webp" alt="Кроссовки Adidas Barricade - теннисные кроссовки" width="300" height="300" data-translate="barricadeAlt">
+                        <div class="product-badges">
+                            <span class="badge new" data-translate="new">Новинка</span>
+                            <span class="badge discount" data-translate="discount">-40%</span>
+                        </div>
+                        <button class="quick-view" data-translate="quickView">Быстрый просмотр</button>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-info">
+                            <h3 data-translate="barricade">Barricade</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="rating-count">(112)</span>
+                            </div>
+                            <p class="product-description" data-translate="barricadeDesc">Тенисные кроссовки для высоких результатов</p>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price" data-price="9500" data-translate="barricadePrice">9 500 ₽</span>
+                            <span class="old-price" data-translate="oldPrice">15 850 ₽</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart" data-translate="add-to-cart">Добавить в корзину</button>
+                            <div class="cart-notification">Добавлено в корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/Pereboost.webp" alt="Кроссовки Adidas Pureboost - кроссовки для тренировок" width="300" height="300" data-translate="pureboostAlt">
+                        <div class="product-badges">
+                            <span class="badge new" data-translate="new">Новинка</span>
+                            <span class="badge discount" data-translate="discount">-35%</span>
+                        </div>
+                        <button class="quick-view" data-translate="quickView">Быстрый просмотр</button>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-info">
+                            <h3 data-translate="pureboost">Pureboost</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="rating-count">(89)</span>
+                            </div>
+                            <p class="product-description" data-translate="pureboostDesc">Кроссовки для тренировок с технологией Boost</p>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price" data-price="11000" data-translate="pureboostPrice">11 000 ₽</span>
+                            <span class="old-price" data-translate="oldPrice">16 950 ₽</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart" data-translate="add-to-cart">Добавить в корзину</button>
+                            <div class="cart-notification">Добавлено в корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/Terrex.webp" alt="Кроссовки Adidas Terrex - кроссовки для трейлраннинга" width="300" height="300" data-translate="terrexAlt">
+                        <div class="product-badges">
+                            <span class="badge new" data-translate="new">Новинка</span>
+                            <span class="badge discount" data-translate="discount">-50%</span>
+                        </div>
+                        <button class="quick-view" data-translate="quickView">Быстрый просмотр</button>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-info">
+                            <h3 data-translate="terrex">Terrex</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="rating-count">(72)</span>
+                            </div>
+                            <p class="product-description" data-translate="terrexDesc">Кроссовки для трейлраннинга с высокими результатами</p>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price" data-price="14000" data-translate="terrexPrice">14 000 ₽</span>
+                            <span class="old-price" data-translate="oldPrice">28 000 ₽</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart" data-translate="add-to-cart">Добавить в корзину</button>
+                            <div class="cart-notification">Добавлено в корзину</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="assets/Busenitz.webp" alt="Кроссовки Adidas Busenitz - кроссовки для скейтбординга" width="300" height="300" data-translate="busenitzAlt">
+                        <div class="product-badges">
+                            <span class="badge new" data-translate="new">Новинка</span>
+                            <span class="badge discount" data-translate="discount">-45%</span>
+                        </div>
+                        <button class="quick-view" data-translate="quickView">Быстрый просмотр</button>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-info">
+                            <h3 data-translate="busenitz">Busenitz</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="rating-count">(156)</span>
+                            </div>
+                            <p class="product-description" data-translate="busenitzDesc">Кроссовки для скейтбординга с высокими результатами</p>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price" data-price="10000" data-translate="busenitzPrice">10 000 ₽</span>
+                            <span class="old-price" data-translate="oldPrice">18 200 ₽</span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="add-to-cart" data-translate="add-to-cart">Добавить в корзину</button>
+                            <div class="cart-notification">Добавлено в корзину</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="map-section">
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.3726691101367!2d37.615310315931474!3d55.75199998055136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0JrRgNC10LzQu9GM!5e0!3m2!1sru!2sru!4v1645541234567!5m2!1sru!2sru" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    data-translate="mapFrame"
+                    title="Карта расположения магазина Adidas в Москве">
+            </iframe>
+        </div>
+        <div class="map-info">
+            <h3 data-translate="office">Наш офис в Москве</h3>
+            <p data-translate="address">г. Москва, Красная площадь, 1</p>
+            <p data-translate="phone">Телефон: +7 (495) 123-45-67</p>
+            <p data-translate="email">Email: info@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="assets/logo.svg" alt="Логотип Adidas - официальный магазин спортивной одежды и обуви" width="100" height="50" data-translate="footerLogoAlt">
+                        <p data-translate="brandName">Adidas</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/adidas" aria-label="Facebook Adidas" data-translate="facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com/adidas" aria-label="Instagram Adidas" data-translate="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/adidas" aria-label="Twitter Adidas" data-translate="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://youtube.com/adidas" aria-label="YouTube Adidas" data-translate="youtube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-translate="shop">Магазин</h4>
+                        <ul>
+                            <li><a href="/men" data-translate="men">Мужское</a></li>
+                            <li><a href="/women" data-translate="women">Женское</a></li>
+                            <li><a href="/kids" data-translate="kids">Детское</a></li>
+                            <li><a href="/sale" data-translate="sale">Распродажа</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 data-translate="products">Продукты</h4>
+                        <ul>
+                            <li><a href="/footwear" data-translate="footwear">Обувь</a></li>
+                            <li><a href="/clothing" data-translate="clothing">Одежда</a></li>
+                            <li><a href="/accessories" data-translate="accessories">Аксессуары</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 data-translate="support">Поддержка</h4>
+                        <ul>
+                            <li><a href="/help" data-translate="help">Помощь</a></li>
+                            <li><a href="/returns" data-translate="returns">Возврат</a></li>
+                            <li><a href="/shipping" data-translate="shipping">Доставка</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2024 Adidas</p>
+                    <div class="legal-links">
+                        <a href="/terms" data-translate="terms">Условия</a>
+                        <a href="/privacy" data-translate="privacy">Конфиденциальность</a>
+                    </div>
+                </div>
+                <div class="footer-payment">
+                    <i class="fab fa-cc-visa" data-translate="visa" aria-label="Visa"></i>
+                    <i class="fab fa-cc-mastercard" data-translate="mastercard" aria-label="MasterCard"></i>
+                    <i class="fab fa-cc-amex" data-translate="amex" aria-label="American Express"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
